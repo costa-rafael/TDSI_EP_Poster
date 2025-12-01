@@ -1,0 +1,27 @@
+Os valores NaN foram removidos antes do cálculo das frequências, uma vez que não correspondem a respostas válidas. 
+
+Como consequência, o total das tabelas de frequência deixou de ser 63 e passou a corresponder apenas ao número de respostas 
+não nulas. 
+
+As frequências acumuladas foram calculadas apenas com base nas categorias válidas.
+    Não se poderiam calcular frequências acumuladas com valores nulos.
+
+
+RECONFIGURAÇÃO MANUAL DOS DADOS:
+    Mantiveram-se Iguais:
+Age, Gender, Education, Outside_Recycling, Locals, Reasons_Why_Not, Willingness_Change, Make_Difference(1_10)
+
+    Mudaram:
+Frequency(1_4)
+    Diariamente (4)
+    Semanalmente (3)
+    Mensalmente (2)
+    Raramente (1)
+    Branco (NaN) -> Para não recicladores
+
+Acessibility(1_4), Information(1_4), Incentives(1_4), Hygiene(1_4)
+    Muito Importante (4)
+    Importante (3)
+    Pouco Importante (2)
+    Nada Importante (1)
+    Não tenho opinião (NaN)
